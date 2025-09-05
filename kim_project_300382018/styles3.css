@@ -1,0 +1,115 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main {
+    display: flex;
+    background-color: #D6DAF8;
+    justify-content: space-between;
+    height: 100%;
+
+}
+.right, .left {
+    width: 100%;
+}
+.techniquesOverview {
+    padding: 2em;
+}
+.techniquesMain {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1em;
+    border-style: solid;
+    border-width: 1px;
+}
+.rodReel {
+    width: 70%;
+    border-radius: 8px;
+    margin-bottom: 1em;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.techOverviewContent {
+    font-size: 1.5em;
+}
+.techniqueImg {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1em;
+    border-style: solid;
+    border-width: 1px;
+}
+.techColumn {
+    flex: 1;
+    padding: 1.5em;
+    background-color: #F9F9FF;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #5B66B7;
+    border-radius: 8px;
+    margin: 1em;
+}
+header {
+    background-color: #ACB3EA;
+    padding: 3em;
+    text-align: center;
+   
+   
+    background-image: url(images/a1.jpeg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15em auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em;
+}
+th, td {
+    padding: 0.3em;
+    border-style: solid;
+    border-width: 1px;
+}
+a {
+    font-size: 2em;
+    padding: 0.5em;
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    header {
+        padding: 2em;
+        background-image: none;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a {
+        font-size: 1.5em;
+        padding: 0.5em;
+        text-decoration: none;
+        color: black;
+        margin-bottom: 1em;
+    }
+
+    img {
+        width: 100%;
+        filter: none;
+    }
+    .main {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    h1, h2, p {
+        text-align: center;
+    }
+}
