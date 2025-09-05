@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Stores  -  FishIntel</title>
+    <link rel="stylesheet" href="styles5.css">
+    <script src="formValidation.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="homePage.html">Home</a>
+            <a href="Licensing.html">Licensing</a>
+            <a href="techniques.html">Fishing Techniques</a>
+            <a href="localStores.html">Local Stores</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="sides"></div>
+        <div class="main">
+            <div class="left">
+                <img src="images/ryan.jpeg" alt="Contact Us">
+            </div>
+            <div class="right">
+            <h1>Your Feedback</h1>
+            <form onsubmit="return validateForm()">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required><br>
+    
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required><br>
+    
+                <label for="message">Your Feedback:</label>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+    
+                <button type="submit">Submit</button>
+            </form>
+            <h2>Contact Info: </h2>
+            <p><strong>Name:</strong> Alex Kim</p>
+            <p><strong>Email:</strong> donghakdh@hotmail.com</p>
+            <p><strong>Phone:</strong> (604)-555-5555</p>
+            </div>
+        </div>
+        <div class="sides"></div>
+    </div>
+
+</body>
