@@ -15,6 +15,7 @@ function validateForm() {
     }
 
     alert("Thank you for your feedback!");
-    window.location.href = "homepage.html"
+    window.location.href = "index.html"
     return false;
+
 }
